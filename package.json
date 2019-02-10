@@ -1,0 +1,13 @@
+{
+  "name": "promises-in-batches",
+  "version": "1.0.0",
+  "description": "Execute promises sequentially in batches",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "morishin",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
