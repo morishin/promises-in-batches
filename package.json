@@ -15,11 +15,16 @@
   "devDependencies": {
     "@types/jest": "^24.0.0",
     "jest": "^23.6.0",
+    "prettier": "^1.16.4",
     "ts-jest": "^23.10.5",
     "typescript": "^3.3.3"
   },
   "scripts": {
+    "prettier:check": "prettier --list-different '**/*.ts' '**/*.tsx'",
+    "prettier:format": "prettier --write '**/*.ts' '**/*.tsx'",
     "test": "jest",
-    "prepublish": "npx tsc"
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --noEmit --watch",
+    "prepublish": "tsc"
   }
 }

@@ -1,4 +1,7 @@
+[![CircleCI](https://circleci.com/gh/morishin/promises-in-batches.svg?style=svg)](https://circleci.com/gh/morishin/promises-in-batches)
+
 # promises-in-batches
+
 Execute promises sequentially in batches.
 
 You can executes promises concurrently with a limitation of concurrency.
