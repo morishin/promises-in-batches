@@ -5,6 +5,11 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "author": "morishin",
+  "homepage": "https://github.com/morishin/promises-in-batches",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:morishin/promises-in-batches.git"
+  },
   "license": "MIT",
   "private": false,
   "devDependencies": {
