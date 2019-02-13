@@ -1,9 +1,16 @@
 {
   "name": "promises-in-batches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Execute promises sequentially in batches",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "author": "morishin",
   "homepage": "https://github.com/morishin/promises-in-batches",
   "repository": {
