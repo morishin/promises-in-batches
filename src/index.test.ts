@@ -1,4 +1,4 @@
-import { makePromiseBatch } from './PromisesInBatches';
+import { makePromiseBatch } from './index';
 
 test('The return value is grouped by batches', async () => {
   const batchSize = 3;
