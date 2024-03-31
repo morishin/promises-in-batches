@@ -13,13 +13,7 @@ e.g.) Batch Size: 3
 ## Installation
 
 ```shell
-yarn add promises-in-batches
-```
-
-or
-
-```shell
-npm install --save-dev promises-in-batches
+npm install promises-in-batches
 ```
 
 ## Usage
